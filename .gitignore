@@ -40,3 +40,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# 모든 파일 및 폴더 무시
+/*
+
+# src 폴더는 예외로 두어 Git에 추가
+!src/
+
+# .gitignore 파일 자체는 무시하지 않음
+!.gitignore
